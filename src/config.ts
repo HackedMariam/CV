@@ -48,7 +48,6 @@ export interface Copy {
   location: string
   cvSection: string
   cvPrimary: string
-  cvOther: string
   connectLabel: string
   emailLabel: string
   emailAria: string
@@ -69,7 +68,6 @@ export const copy: Record<Lang, Copy> = {
     location: 'Tunis, Tunisia',
     cvSection: 'Curriculum vitae',
     cvPrimary: 'Download my CV',
-    cvOther: 'Télécharger le CV (FR)',
     connectLabel: 'Connect',
     emailLabel: 'Email',
     emailAria: 'Send an email to Mariam Ben Abdallah',
@@ -88,7 +86,6 @@ export const copy: Record<Lang, Copy> = {
     location: 'Tunis, Tunisie',
     cvSection: 'Curriculum vitae',
     cvPrimary: 'Télécharger mon CV',
-    cvOther: 'Download the CV (EN)',
     connectLabel: 'Me retrouver',
     emailLabel: 'E-mail',
     emailAria: 'Envoyer un e-mail à Mariam Ben Abdallah',
