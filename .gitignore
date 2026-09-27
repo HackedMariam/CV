@@ -1,0 +1,14 @@
+# Dependencies / build output
+node_modules/
+dist/
+.vercel/
+
+# Local scratch files (not part of the site)
+envoyer un mail à.txt
+_Candidature*.pdf
+pdp.png
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.local
