@@ -81,7 +81,7 @@ export const copy: Record<Lang, Copy> = {
     skipToContent: 'Aller au contenu',
     languageSwitch: 'Langue',
     statusPill: 'Disponible · Janv. 2027',
-    role: 'Étudiante en Génie Data Science',
+    role: 'Étudiante en Data Science',
     field: 'IA • Vision par ordinateur • Deep Learning',
     location: 'Tunis, Tunisie',
     cvSection: 'Curriculum vitae',
