@@ -21,8 +21,6 @@ export const profile = {
   coords: ['36.8° N', '10.1° E'],
 } as const
 
-export const agririskImage = '/agririsk.png'
-
 export interface EducationItem {
   node: string
   date: string

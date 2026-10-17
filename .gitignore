@@ -9,6 +9,6 @@ _Candidature*.pdf
 pdp.png
 
 # Editor / OS
-.DS_Store
+.DS_Storeu 
 Thumbs.db
 *.local

@@ -1,6 +1,6 @@
 import type { Copy } from '../content'
-import { agririskImage } from '../content'
 import { ArrowIcon } from './icons'
+import agririskImage from '../assets/agririsk.png'
 
 interface Props {
   t: Copy
