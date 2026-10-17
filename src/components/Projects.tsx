@@ -1,6 +1,6 @@
 import type { Copy } from '../content'
 import { ArrowIcon } from './icons'
-import agririskImage from '../assets/agririsk.png'
+import { agririskImage } from '../assets/agririsk'
 
 interface Props {
   t: Copy
@@ -27,7 +27,7 @@ export default function Projects({ t }: Props) {
         </div>
 
         <div className="risk-visual">
-          <img src={agririskImage} alt={featured.imageAlt} loading="lazy" />
+          <img src={agririskImage} alt={featured.imageAlt} />
         </div>
 
         <div className="roadmap">
