@@ -13,15 +13,6 @@ const base = {
   focusable: false,
 }
 
-export function PinIcon({ className }: IconProps) {
-  return (
-    <svg {...base} className={className}>
-      <path d="M12 21s-7-5.6-7-11a7 7 0 1 1 14 0c0 5.4-7 11-7 11Z" />
-      <circle cx="12" cy="10" r="2.4" />
-    </svg>
-  )
-}
-
 export function DownloadIcon({ className }: IconProps) {
   return (
     <svg {...base} className={className}>
@@ -32,11 +23,11 @@ export function DownloadIcon({ className }: IconProps) {
   )
 }
 
-export function ExternalIcon({ className }: IconProps) {
+export function ArrowIcon({ className }: IconProps) {
   return (
-    <svg {...base} className={className} strokeWidth={2}>
-      <path d="M8 16 16 8" />
-      <path d="M9.5 8H16v6.5" />
+    <svg {...base} strokeWidth={1.5} className={className}>
+      <path d="M6 18 18 6" />
+      <path d="M10 6h8v8" />
     </svg>
   )
 }
@@ -46,6 +37,23 @@ export function MailIcon({ className }: IconProps) {
     <svg {...base} className={className}>
       <rect x="3" y="5" width="18" height="14" rx="2.5" />
       <path d="m3.8 7.2 8.2 5.6 8.2-5.6" />
+    </svg>
+  )
+}
+
+export function SunIcon({ className }: IconProps) {
+  return (
+    <svg {...base} className={className}>
+      <circle cx="12" cy="12" r="4.2" />
+      <path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M18.7 5.3l-1.6 1.6M6.9 17.1l-1.6 1.6" />
+    </svg>
+  )
+}
+
+export function MoonIcon({ className }: IconProps) {
+  return (
+    <svg {...base} className={className}>
+      <path d="M20 14.2A8.2 8.2 0 0 1 9.8 4a8.2 8.2 0 1 0 10.2 10.2Z" />
     </svg>
   )
 }

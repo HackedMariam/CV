@@ -1,16 +1,18 @@
-import type { Copy } from '../config'
-import { profile } from '../config'
+import type { Copy } from '../content'
+import { profile } from '../content'
 
-export default function Footer({ t }: { t: Copy }) {
+interface Props {
+  t: Copy
+}
+
+export default function Footer({ t }: Props) {
   return (
-    <footer className="footer">
-      <span>
-        © {new Date().getFullYear()} {profile.name}
+    <footer>
+      <span className="monogram" aria-hidden="true">
+        M<span>{profile.monogram.slice(1)}</span>
       </span>
-      <span className="footer__dot" aria-hidden="true">
-        ·
-      </span>
-      <span>{t.location}</span>
+      <span>{t.footer.note}</span>
+      <span>{t.footer.rights}</span>
     </footer>
   )
 }

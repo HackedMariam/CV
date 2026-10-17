@@ -1,19 +1,29 @@
-import type { Copy } from '../config'
-import { skills } from '../config'
+import type { Copy } from '../content'
 
-export default function Toolkit({ t }: { t: Copy }) {
+interface Props {
+  t: Copy
+}
+
+export default function Toolkit({ t }: Props) {
+  const { toolkit } = t
+
   return (
-    <section className="section" aria-labelledby="toolkit-label">
-      <h2 className="label" id="toolkit-label">
-        {t.toolkitLabel}
-      </h2>
-      <ul className="chips">
-        {skills.map((skill) => (
-          <li className="chip" key={skill}>
-            {skill}
-          </li>
-        ))}
-      </ul>
+    <section className="section" id="toolkit">
+      <div className="toolkit">
+        <div className="section-heading">
+          <span className="kicker">{toolkit.kicker}</span>
+          <h2>{toolkit.title}</h2>
+          <p>{toolkit.text}</p>
+        </div>
+
+        <div className="skill-cloud reveal">
+          {toolkit.skills.map((skill) => (
+            <span className={skill === toolkit.accent ? 'accent-skill' : undefined} key={skill}>
+              {skill}
+            </span>
+          ))}
+        </div>
+      </div>
     </section>
   )
 }

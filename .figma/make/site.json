@@ -1,0 +1,10 @@
+{
+  "description": "Showcase the portfolio of a Tunisian data science engineering student with bilingual support, featuring projects, timeline, and contact options in a modern design.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

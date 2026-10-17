@@ -1,8 +1,9 @@
-# Mariam Ben Abdallah — Digital Business Card
+# Mariam Ben Abdallah — Portfolio
 
-A minimal, bilingual (EN/FR) single-page "digital business card" for networking
-events: CV download, professional links, availability and toolkit. Built with
-Vite + React + TypeScript. No backend, no environment variables.
+A bilingual (EN/FR) single-page portfolio with light/dark themes: journey
+timeline, internships, selected projects (AgriRisk, QoSBuddy, Concrete Strength
+Optimization, Diacure, Solvey, DressMe), toolkit, CV download and contact.
+Built with Vite + React + TypeScript. No backend, no environment variables.
 
 ## Deploy (GitHub → Vercel)
 
@@ -23,8 +24,12 @@ npm run preview  # serve the production build
 
 Everything you may want to change lives in one file:
 
-- **`src/config.ts`** — links (LinkedIn, GitHub, email), CV paths, skills and
-  every piece of EN/FR text.
+- **`src/content.ts`** — links (LinkedIn, GitHub, email), CV paths, profile,
+  journey, internships, projects and every piece of EN/FR text.
+
+Images:
+
+- `public/agririsk.png` — AgriRisk interface screenshot (featured project card).
 
 CV files served by the site (replace the files, keep the same names):
 
