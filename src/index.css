@@ -112,8 +112,6 @@ h1 em { color: var(--accent); font-weight: 600; }
 .hero-orbit { position: absolute; border: 1px solid var(--line); border-radius: 50%; pointer-events: none; }
 .orbit-one { width: 35vw; height: 35vw; right: -10vw; top: 17%; }
 .orbit-two { width: 20vw; height: 20vw; right: -1vw; top: 31%; border-color: color-mix(in srgb, var(--secondary) 50%, transparent); }
-.location-mark { position: absolute; right: 3rem; bottom: 2.5rem; display: grid; grid-template-columns: auto auto; gap: .2rem .7rem; color: var(--muted); font-size: .55rem; letter-spacing: .08em; text-transform: uppercase; }
-.location-mark strong { grid-column: 1 / -1; color: var(--text); font-size: .62rem; }
 
 .section { padding: clamp(6rem, 10vw, 10rem) clamp(1.25rem, 7vw, 8rem); }
 .section-heading { display: grid; grid-template-columns: .7fr 1.3fr; gap: 1.5rem 5rem; width: min(74rem, 100%); margin: 0 auto 5rem; }
@@ -219,7 +217,6 @@ footer .monogram { color: var(--text); }
   .button-row { align-items: flex-start; flex-direction: column; width: 100%; }
   .cv-group { flex-wrap: wrap; }
   .cv-group > span { width: 100%; margin: .8rem 0 0; }
-  .location-mark { display: none; }
   .section-heading { gap: 1rem; margin-bottom: 3.5rem; }
   .timeline { grid-template-columns: 1fr; }
   .experience-column { padding-top: 0; }

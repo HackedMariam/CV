@@ -65,13 +65,6 @@ export default function Hero({ lang, t }: Props) {
           </div>
         </div>
       </div>
-
-      <div className="location-mark" aria-hidden="true">
-        <strong>{hero.location}</strong>
-        {profile.coords.map((value) => (
-          <span key={value}>{value}</span>
-        ))}
-      </div>
     </section>
   )
 }

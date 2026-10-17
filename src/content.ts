@@ -18,7 +18,6 @@ export const profile = {
   monogram: 'MBA',
   firstName: 'Mariam',
   lastName: 'Ben Abdallah',
-  coords: ['36.8° N', '10.1° E'],
 } as const
 
 export interface EducationItem {
